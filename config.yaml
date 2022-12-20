@@ -1,0 +1,36 @@
+generalInformation:
+  serviceAdminEmail: gentlekobby@gmail.com
+  gheUsername: kobbyopoku
+  billingAccount: test
+  billingTeamName: test
+  gheToken: ""
+  adpAccessToken: ""
+jira:
+  adminToken: ""
+  projectKey: FR
+  projectName: francis
+  leadUsername: kobbyopoku
+projectInformation:
+  projectName: Francis
+  projectShortName: francis
+  buildType: maven
+  testInstance: true
+  preprodInstance: true
+  uatInstance: true
+cloudService:
+  awsOrAzure: eks
+  deploymentLocation: aws_ase2
+automationService:
+  jenkinsOrGithubActions: jenkins
+  jenkinsAdmin: ""
+  jenkinsDeveloper: ""
+  jenkinsKubernetesAccess: ""
+  kvUserOrGroupName: ""
+  nexusKubernetesAccess: ""
+gheOrganization:
+  organizationName: kobbyopoku
+  isNew: false
+testingTools:
+  sonarQube: false
+  adminGroup: ""
+  kubernetesAccess: ""
